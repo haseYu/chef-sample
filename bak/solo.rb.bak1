@@ -1,0 +1,4 @@
+knife[:provisioning_path] = "/home/ec2-user/chef-solo"
+cookbook_path ["/home/ec2-user/chef-repo/cookbooks"]
+role_path nil
+data_bag_path "/home/ec2-user/chef-repo/data_bags"

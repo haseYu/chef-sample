@@ -1,0 +1,10 @@
+{
+  "mysql": {
+    "server_root_password": "changehere",
+    "server_repl_password": "changehere",
+    "server_debian_password": "changehere"
+  },
+  "run_list": [
+    "recipe[mysql::server]"
+  ]
+}
