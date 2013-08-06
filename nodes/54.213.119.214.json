@@ -1,0 +1,12 @@
+{
+  "run_list": [
+    "recipe[apache2]",
+    "recipe[apache2::mod_ssl]",
+    "recipe[apache2::mod_proxy_ajp]",
+    "recipe[apache2::mod_proxy_http]",
+    "recipe[nodejs::install_from_source]"
+  ],
+  "apache": {
+    "default_site_enabled": true
+  }
+}
